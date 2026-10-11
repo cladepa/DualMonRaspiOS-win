@@ -1,0 +1,20 @@
+# Белый список: в git попадает только то, что перечислено ниже.
+# Личные данные (адреса, ключи, старые копии, служебные файлы) сюда не попадают.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/settings.conf
+!/install-pi.sh
+!/install-windows.ps1
+!/install-windows.bat
+!/run-tray.bat
+!/doctor-windows.bat
+!/pi/
+!/windows/
+!/hosts/
+/hosts/*
+!/hosts/*.example.txt
+!/keys/
+/keys/*
+!/keys/README.txt
